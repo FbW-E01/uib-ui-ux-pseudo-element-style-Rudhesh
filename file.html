@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        li {
+
+            color: #005bd1;
+            font-family: cursive, serif;
+            letter-spacing: 3px;
+            font-weight: lighter;
+            font-size: 36px;
+            padding: 35px;
+
+        }
+
+        .icon1:after {
+
+            content: url(https://img.icons8.com/officel/64/000000/pdf.png);
+            padding: 5px;
+            box-sizing: border-box;
+            position: absolute;
+            padding: 0px 15px;
+            margin-top: -9px;
+        }
+
+        .icon2:after {
+
+            content: url(https://img.icons8.com/dusk/64/000000/ms-excel.png);
+            padding: 5px;
+            box-sizing: border-box;
+            position: absolute;
+            padding: 0px 29px;
+            margin-top: -9px;
+
+        }
+
+        .icon3:after {
+
+            content: url(https://img.icons8.com/dusk/64/000000/ms-word.png);
+            padding: 5px;
+            box-sizing: border-box;
+            position: absolute;
+            padding: 0px 15px;
+            margin-top: -9px;
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            display: inline-block;
+            width: 2em;
+            margin-left: -1em;
+        }
+    </style>
+
+
+    <title>file</title>
+</head>
+
+<body>
+    <ul>
+        <li class="icon1">File1.pdf</li>
+        <li class="icon2">File2.xls</li>
+        <li class="icon3">File3.doc</li>
+        <li class="icon3">File4.doc</li>
+        <li class="icon1">File5.pdf</li>
+    </ul>
+</body>
+
+</html>
